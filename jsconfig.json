@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Target ECMAScript version
+    "module": "commonjs", // Specify module system (e.g., 'commonjs')
+    "allowJs": true, // Allow JavaScript files to be included
+    "checkJs": true, // Enable error checking in JavaScript files
+    "jsx": "react", // Specify JSX factory (e.g., 'react')
+    "baseUrl": ".", // Base directory to resolve non-relative module names
+    "paths": {
+      "@/*": ["src/*"] // Custom path mapping for module names
+    },
+    "esModuleInterop": true // Enable esModuleInterop for interoperability
+  },
+  "include": [
+    "src/**/*", // Include files from the 'src' directory
+    "variants.js"
+  ],
+  "exclude": [
+    "node_modules" // Exclude 'node_modules' directory
+  ]
+}
